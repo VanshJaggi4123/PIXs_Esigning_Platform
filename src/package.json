@@ -1,0 +1,30 @@
+{
+  "name": "esign-application",
+  "version": "1.0.0",
+  "description": "Complete eSign application with React frontend and Node.js backend",
+  "scripts": {
+    "setup": "cd backend && npm install && npm run init-db",
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "npm run dev",
+    "start": "concurrently \"npm run start:backend\" \"npm run start:frontend\"",
+    "start:backend": "cd backend && npm start",
+    "start:frontend": "npm run build && npm run preview",
+    "build": "vite build",
+    "preview": "vite preview",
+    "backend:init": "cd backend && npm run init-db",
+    "backend:reset": "rm -rf backend/database backend/uploads && cd backend && npm run init-db"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "keywords": [
+    "esign",
+    "react",
+    "nodejs",
+    "document-signing",
+    "authentication"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
