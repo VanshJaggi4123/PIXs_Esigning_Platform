@@ -41,8 +41,8 @@ export function LoginPage() {
       <div className="w-full max-w-md space-y-8">
         {/* Logo */}
         <div className="text-center">
-          <div className="mx-auto h-16 w-16 bg-primary rounded-xl flex items-center justify-center mb-4">
-            <Building2 className="h-8 w-8 text-primary-foreground" />
+          <div className="mx-auto h-20 w-16 bg-white rounded-xl flex items-center justify-center mb-4">
+            <img src="/PIXS_Brand_Logo.png" alt="Company Logo" className="h-full w-full" />
           </div>
           <h1 className="text-2xl font-semibold">eSign Portal</h1>
           <p className="text-muted-foreground mt-2">Secure document signing platform</p>
@@ -90,24 +90,6 @@ export function LoginPage() {
                 />
               </TabsContent>
             </Tabs>
-          </CardContent>
-        </Card>
-
-        {/* Demo Credentials */}
-        <Card className="border border-muted bg-muted/50">
-          <CardContent className="pt-4">
-            <h3 className="font-medium mb-3">Demo Credentials:</h3>
-            <div className="space-y-2 text-sm">
-              <div>
-                <strong>Employee:</strong> employee@company.com / password123
-              </div>
-              <div>
-                <strong>HR Admin:</strong> hr@company.com / password123
-              </div>
-              <div>
-                <strong>New User:</strong> newuser@company.com / password123
-              </div>
-            </div>
           </CardContent>
         </Card>
       </div>

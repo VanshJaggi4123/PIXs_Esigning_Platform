@@ -86,8 +86,8 @@ export function DashboardLayout({ children }: { children: React.ReactNode }) {
           </Button>
 
           <div className="flex items-center gap-3">
-            <div className="h-8 w-8 bg-primary rounded-lg flex items-center justify-center">
-              <Building2 className="h-5 w-5 text-primary-foreground" />
+            <div className="h-8 w-8 bg-white rounded-lg flex items-center justify-center">
+              <img src="/PIXS_Brand_Logo.png" alt="Company Logo" className="h-full w-full text-primary-foreground" />
             </div>
             <div>
               <h1 className="font-semibold">eSign Portal</h1>
